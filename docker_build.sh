@@ -1,1 +1,1 @@
-docker build -t rustos:1.22.1 .
+docker build -t rustos:1.22 .

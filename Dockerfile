@@ -1,6 +1,6 @@
 # todo: still to be tested
 
-FROM rust:1.22.1
+FROM rust:1.22
 
 WORKDIR /app
 
