@@ -1,15 +1,34 @@
-# todo: still to be tested
-
-FROM rust:1.22
-
+FROM ubuntu:16.04
+SHELL ["/bin/bash", "-c"]
 WORKDIR /app
 
-RUN apt-get update && apt-get upgrade && apt-get install -y
-RUN apt-get install grub nasm xorriso qemu build-essential
-RUN rustup update
-RUN rustup install nightly
-RUN rustup default nightly
 
-CMD ["/bin/bash"]
+RUN apt-get update && apt-get install \
+  nasm xorriso qemu build-essential curl \
+  grub -y && \
+  curl https://sh.rustup.rs -sSf > rust.sh && \
+  sh rust.sh -y && \
+  source ${HOME}/.cargo/env \
+  rustup update && \
+  rustup install nightly && \
+  rustup default nightly
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
