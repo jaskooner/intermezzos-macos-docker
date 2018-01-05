@@ -11,7 +11,14 @@ RUN apt-get update && apt-get install \
   source ${HOME}/.cargo/env \
   rustup update && \
   rustup install nightly && \
-  rustup default nightly
+  rustup default nightly && \
+  cargo install xargo && \
+  rustup component add rust-src 
+
+RUN echo PATH="$HOME/.cargo/bin:$PATH" >> $HOME/.bashrc
+
+
+
 
 
 
