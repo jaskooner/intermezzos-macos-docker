@@ -19,8 +19,9 @@ Then create and run a conatiner that binds to your current working directory.
   
 Once connected to the container:
 
-  make cargo
-  make
+make cargo
+
+make
 
 You can edit your code on your host mac but run the code in the container.
 
