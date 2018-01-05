@@ -6,9 +6,11 @@ up a docker image and container instead.
 To run.
 
 In the main directory build the docker image:
-  docker build -t rustos:03 .
+
+docker build -t rustos:03 .
 
 Then create and run a conatiner that binds to your current working directory.
+
   docker run \
   -it \
   --name devtest
@@ -16,6 +18,7 @@ Then create and run a conatiner that binds to your current working directory.
   rustos:03
   
 Once connected to the container:
+
   make cargo
   make
 
