@@ -1,3 +1,0 @@
-PATH=/Users/jaskoonersingh/.cargo.bin:/Users/jaskoonersingh/opt/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/jaskoonersingh/.cargo/bin:/Users/jaskoonersingh/Library/Python/3.6/bin/:/Users/jaskoonersingh/.gem/bin:/Users/jaskoonersingh/.nvm/versions/node/v8.5.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/usr/local/share/dotnet:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/bin:/usr/local/mysql/bin:/Users/jaskoonersingh/bin
-export PATH
-

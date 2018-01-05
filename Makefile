@@ -1,9 +1,9 @@
-default: build
+default: run
 
 .PHONY: default build run clean
 
-run: build/os.iso
-	qemu-system-x86_64 build/os.iso
+run: target/os.iso
+	qemu-system-x86_64 -curses target/os.iso
 
 build: target/os.iso
 

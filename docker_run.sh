@@ -1,4 +1,4 @@
-docker run -d \
+docker run \
 -it \
 --name devtest \
 --mount type=bind,source="$(pwd)",target=/app \
