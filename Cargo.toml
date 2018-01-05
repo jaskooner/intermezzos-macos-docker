@@ -1,0 +1,12 @@
+[package]
+name = "intermezzos"
+version = "0.1.0"
+authors = ["scooter <jaskooner.singh@gmail.com>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
