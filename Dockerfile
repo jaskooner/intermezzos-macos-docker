@@ -4,7 +4,8 @@ WORKDIR /app
 
 
 RUN apt-get update && apt-get install \
-  nasm xorriso qemu build-essential curl bsdmainutils \
+  nasm xorriso qemu build-essential curl \
+  bsdmainutils grub-pc-bin \
   grub -y && \
   curl https://sh.rustup.rs -sSf > rust.sh && \
   sh rust.sh -y && \
